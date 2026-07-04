@@ -8,7 +8,7 @@ ui_print() {
 ui_print "▶ Sortify: Manual sort started"
 
 DOWNLOADS="/sdcard/Download"
-DEST_BASE="/sdcard/Download"
+DEST_BASE="/sdcard/Download/Sortify"
 
 mkdir -p "$DEST_BASE/Documents" \
          "$DEST_BASE/Images" \
