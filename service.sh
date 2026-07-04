@@ -28,15 +28,8 @@ wait_until_storage
             source "$CONF"
         fi
         
-        # Run the action script
-        # We redirect stdout/stderr to log to capture any 'echo' from action.sh
-        sh "$MODDIR/action.sh" >> "$LOG" 2>&1
-        
-        # Log the service heartbeat
-        echo "[Service] $(date '+%Y-%m-%d %H:%M:%S') - Cycle complete. Sleeping ${INTERVAL}s" >> "$LOG"
-        
-        # Prune log (Keep last 200 lines)
-        tail -n 200 "$LOG" > "$LOG.tmp" && mv "$LOG.tmp" "$LOG"
+        # Run the action script and throw away all output
+        sh "$MODDIR/action.sh" > /dev/null 2>&1
         
         sleep "${INTERVAL:-300}"
     done
