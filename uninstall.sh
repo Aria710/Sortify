@@ -1,7 +1,7 @@
 #!/system/bin/sh
 # Sortify v4.0 Uninstaller - by xCaptaiN09
 
-BASE="/sdcard/Sortify"
+BASE="/sdcard/Download/Sortify"
 LOG="$BASE/sortify.log"
 
 echo "[Uninstall] $(date '+%Y-%m-%d %H:%M:%S') - Sortify uninstall initiated." >> "$LOG"
