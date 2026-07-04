@@ -1,7 +1,7 @@
 #!/system/bin/sh
-# Sortify v4.0 by xCaptaiN09
+# Sortify v4.0 by xCaptaiN09, Aria710
 
-BASE="/sdcard/Sortify"
+BASE="/sdcard/Sortify/Download"
 
 # 1. Create User Directories
 ui_print "- Creating folder structure..."
