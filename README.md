@@ -1,6 +1,6 @@
-# Why?
-This is just Sortify but without the ability to print annoying log files every time it sorts your files, and it doesn't have its own folder but instead sorts everything inside Download/
-Please use the original Module by [xCaptaiN09](https://github.com/xCaptaiN09) if you don't wish for either of these changes, I will also keep this updated with the original as long as its doesn't have these by default
+# Why fork it?
+This is just Sortify but without the ability to print out annoying log files every time it sorts your files, and it sorts everything inside Download/Sortify/ instead of 0/Sortify/
+Please use the original Module by [xCaptaiN09](https://github.com/xCaptaiN09) if you don't care for either of these changes, I will also keep this updated with the original as long as its doesn't have these as options by default
 
 
 <p align="center">
