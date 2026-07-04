@@ -8,7 +8,7 @@ ui_print() {
 ui_print "▶ Sortify: Manual sort started"
 
 DOWNLOADS="/sdcard/Download"
-DEST_BASE="/sdcard/Sortify"
+DEST_BASE="/sdcard/Download"
 
 mkdir -p "$DEST_BASE/Documents" \
          "$DEST_BASE/Images" \
@@ -66,6 +66,6 @@ find "$DOWNLOADS" -maxdepth 1 -type f \
         fi
     done
 
-date "+[%Y-%m-%d %H:%M:%S] Manual sort triggered" >> "$DEST_BASE/sortify.log"
+# date "+[%Y-%m-%d %H:%M:%S] Manual sort triggered" >> "$DEST_BASE/sortify.log"
 
 ui_print "✔ Sortify: Manual sort completed"
