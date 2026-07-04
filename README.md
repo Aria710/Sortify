@@ -1,8 +1,9 @@
 # Why fork it?
 This is just Sortify but without the ability to print out annoying logs every time it sorts your files, and it sorts everything inside Download/Sortify/ instead of 0/Sortify/
-Please use the original Module by [xCaptaiN09](https://github.com/xCaptaiN09) if you don't care for either of these changes, I will also keep this updated with the original as long as its doesn't have these as options by default
+Please use the original module if you don't care for either of these changes, I will also keep this updated with the original as long as its doesn't have these as options by default
 
 #
+
 <p align="center">
   <img src="banner.png" alt="Sortify Banner" width="100%" />
 </p>
