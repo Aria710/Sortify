@@ -1,5 +1,7 @@
-# This is just Sortify but without logging and it doesn't have its own folder but instead sorts everything inside Download/
+# Why?
+This is just Sortify but without the ability to print annoying log files every time it sorts your files, and it doesn't have its own folder but instead sorts everything inside Download/
 Please use the original Module by [xCaptaiN09](https://github.com/xCaptaiN09) if you don't wish for either of these changes, I will also keep this updated with the original as long as its doesn't have these by default
+
 
 <p align="center">
   <img src="banner.png" alt="Sortify Banner" width="100%" />
